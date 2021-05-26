@@ -1,5 +1,5 @@
 #!/bin/sh
 echo "********************************************************"
-echo "Starting fundamental-service "
+echo "Starting market-news-service "
 echo "********************************************************"
-java -jar -Dspring.profiles.active=dev fundamental.jar
+java -jar -Dspring.profiles.active=dev market-news-service.jar
